@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/momo/work/c++/Excemple/main.cpp
+iostream
+-
+vtable.hpp
+/Users/momo/work/c++/Excemple/vtable.hpp
+mlist.hpp
+/Users/momo/work/c++/Excemple/mlist.hpp
+
+/Users/momo/work/c++/Excemple/mlist.hpp
+sys/types.h
+-
+
+/Users/momo/work/c++/Excemple/vtable.hpp
+stdio.h
+-
+iostream
+-
+
